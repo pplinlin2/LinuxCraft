@@ -6,3 +6,4 @@
 
 ### file sharing
 * [NFS](https://github.com/pplinlin2/LinuxCraft/blob/master/src/nfs/index.md)
+* [SMB](https://github.com/pplinlin2/LinuxCraft/blob/master/src/smb/index.md)
