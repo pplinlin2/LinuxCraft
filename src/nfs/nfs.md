@@ -42,8 +42,8 @@ Export list for 172.17.22.51:
 ```
 ## Windows client
 開啟Windows的NFS client功能
+![windows client setting](https://github.com/pplinlin2/LinuxCraft/blob/master/src/nfs/setting.png)
 
-<img src="https://github.com/pplinlin2/LinuxCraft/blob/master/src/nfs/setting.png" width="500">
 ```console
 > showmount -e 172.17.22.51
 匯出清單 172.17.22.51:
@@ -54,8 +54,7 @@ Z: 現在已成功連接到 \\172.17.22.51\data
 命令已經成功完成。
 ```
 掛載完成後，可以看到Z槽的出現
-
-<img src="https://github.com/pplinlin2/LinuxCraft/blob/master/src/nfs/success.png" width="500">
+![windows client setting](https://github.com/pplinlin2/LinuxCraft/blob/master/src/nfs/success.png)
 
 卸載Z槽
 ```console
