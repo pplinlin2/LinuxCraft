@@ -1,4 +1,8 @@
 # Linux craft
+## Remote connection
+* [ssh](https://github.com/pplinlin2/LinuxCraft/blob/master/src/ssh/index.md)
+* [VNC](https://github.com/pplinlin2/LinuxCraft/blob/master/src/vnc/index.md)
+
 ## Storage drive
 ### Logical
 * [Raid](https://github.com/pplinlin2/LinuxCraft/blob/master/src/raid/index.md)
@@ -11,3 +15,4 @@
 
 ### block-based service
 * [iSCSI](https://github.com/pplinlin2/LinuxCraft/blob/master/src/iscsi/index.md)
+
