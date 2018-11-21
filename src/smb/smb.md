@@ -12,11 +12,16 @@
 將/data加入samba server，設定要須要帳密登入，執行testparm檢查config檔
 ```console
 # tail /etc/samba/smb.conf
+[global]
+    follow symlinks = yes
+    unix extensions = no
+    wide links = yes
+    # https://access.redhat.com/solutions/54407
 [data]
-   path = /data
-   browsable = yes
-   guest ok = no
-   writable = yes
+    path = /data
+    browsable = yes
+    guest ok = no
+    writable = yes
 # testparm
 Load smb config files from /etc/samba/smb.conf
 Processing section "[printers]"
